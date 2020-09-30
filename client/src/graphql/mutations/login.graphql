@@ -8,7 +8,6 @@ mutation login($options: UsernamePasswordInput!) {
       id
       username
       createdAt
-      updatedAt
     }
   }
 }
