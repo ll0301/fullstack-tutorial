@@ -6,7 +6,6 @@ import { InputField } from '../components/InputField';
 import { Wrapper } from '../components/Wrapper';
 import { useForgotPasswordMutation } from '../generated/graphql';
 import { createUrqlClient } from '../utils/createUrqlClient';
-import login from './login';
 
 const ForgotPassword: React.FC<{}> = ({}) => {
   const [complete, setComplete] = useState(false);
@@ -41,7 +40,7 @@ const ForgotPassword: React.FC<{}> = ({}) => {
             isLoading={isSubmitting}
             variantColor="teal"
           >
-            forgot password
+            forgot
           </Button>
         </Form>
       )}
