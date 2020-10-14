@@ -1,4 +1,4 @@
-# fullstack-tutorial
+# fullstack-setup
 
 ### Tech
 * React
